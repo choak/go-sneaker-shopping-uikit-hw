@@ -13,6 +13,8 @@
 		FF66B67628CECE8100F0AE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF66B67428CECE8100F0AE47 /* Main.storyboard */; };
 		FF66B67828CECE8200F0AE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF66B67728CECE8200F0AE47 /* Assets.xcassets */; };
 		FF66B67B28CECE8200F0AE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF66B67928CECE8200F0AE47 /* LaunchScreen.storyboard */; };
+		FF66B68428CECEC100F0AE47 /* GoShoppingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF66B68328CECEC100F0AE47 /* GoShoppingDataModel.swift */; };
+		FF66B68628CED44400F0AE47 /* SneakerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF66B68528CED44400F0AE47 /* SneakerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FF66B67728CECE8200F0AE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF66B67A28CECE8200F0AE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF66B67C28CECE8200F0AE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF66B68328CECEC100F0AE47 /* GoShoppingDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoShoppingDataModel.swift; sourceTree = "<group>"; };
+		FF66B68528CED44400F0AE47 /* SneakerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		FF66B66228CECE8100F0AE47 = {
 			isa = PBXGroup;
 			children = (
+				FF66B68228CECE8C00F0AE47 /* Model */,
 				FF66B66D28CECE8100F0AE47 /* go-sneaker-shopping-uikit-hw */,
 				FF66B66C28CECE8100F0AE47 /* Products */,
 			);
@@ -59,12 +64,21 @@
 				FF66B66E28CECE8100F0AE47 /* AppDelegate.swift */,
 				FF66B67028CECE8100F0AE47 /* SceneDelegate.swift */,
 				FF66B67228CECE8100F0AE47 /* ViewController.swift */,
+				FF66B68528CED44400F0AE47 /* SneakerTableViewCell.swift */,
 				FF66B67428CECE8100F0AE47 /* Main.storyboard */,
 				FF66B67728CECE8200F0AE47 /* Assets.xcassets */,
 				FF66B67928CECE8200F0AE47 /* LaunchScreen.storyboard */,
 				FF66B67C28CECE8200F0AE47 /* Info.plist */,
 			);
 			path = "go-sneaker-shopping-uikit-hw";
+			sourceTree = "<group>";
+		};
+		FF66B68228CECE8C00F0AE47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF66B68328CECEC100F0AE47 /* GoShoppingDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF66B68628CED44400F0AE47 /* SneakerTableViewCell.swift in Sources */,
 				FF66B67328CECE8100F0AE47 /* ViewController.swift in Sources */,
+				FF66B68428CECEC100F0AE47 /* GoShoppingDataModel.swift in Sources */,
 				FF66B66F28CECE8100F0AE47 /* AppDelegate.swift in Sources */,
 				FF66B67128CECE8100F0AE47 /* SceneDelegate.swift in Sources */,
 			);
